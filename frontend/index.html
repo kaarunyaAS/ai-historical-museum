@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Historical Museum</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>🏛️ AI Historical Museum</h1>
+            <p>Interact with history through AI</p>
+        </header>
+
+
+        <!-- Artifact Selection -->
+        <section class="artifact-section">
+
+            <label for="artifactSelect">
+                Select Historical Artifact
+            </label>
+
+            <select id="artifactSelect">
+
+                <option value="Tipu Sultan's Sword">
+                    Tipu Sultan's Sword
+                </option>
+
+                <option value="Chola Bronze Nataraja">
+                    Chola Bronze Nataraja
+                </option>
+
+                <option value="Lion Capital of Ashoka">
+                    Lion Capital of Ashoka
+                </option>
+
+            </select>
+
+        </section>
+
+
+        <!-- Chat Section -->
+        <section class="chat-container">
+
+            <div class="chat-header">
+
+                <h2>Historical Conversation</h2>
+
+                <button id="clearBtn" onclick="clearChat()">
+                    Clear Chat
+                </button>
+
+            </div>
+
+
+            <!-- Messages -->
+            <div id="chatBox" class="chat-box">
+
+                <div class="message ai-message">
+
+                    <div class="message-name">
+                        🏛️ Historical AI
+                    </div>
+
+                    <div class="message-text">
+                        Hello! Select an artifact and ask me
+                        something about its history.
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Input Area -->
+            <div class="input-area">
+
+                <input
+                    type="text"
+                    id="question"
+                    placeholder="Ask something about the artifact..."
+                    autocomplete="off"
+                >
+
+
+                <!-- Microphone -->
+                <button
+                    id="micBtn"
+                    onclick="toggleRecording()"
+                    title="Speak"
+                >
+                    🎤
+                </button>
+
+
+                <!-- Send -->
+                <button
+                    id="sendBtn"
+                    onclick="sendMessage()"
+                >
+                    Send
+                </button>
+
+            </div>
+
+
+            <!-- Status -->
+            <div id="status" class="status">
+                Ready
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
