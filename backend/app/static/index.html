@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MuseumAI heritage intelligence dashboard for Indian artifacts and historical conversations." />
+    <title>MuseumAI | Heritage Intelligence Desk</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <span class="eyebrow">MuseumAI</span>
+          <h1>Heritage Intelligence Desk</h1>
+        </div>
+
+        <div class="header-actions">
+          <div class="status-pill" id="system-status">Live</div>
+          <div class="lang-toggle" aria-label="Language selector">
+            <button class="lang active" data-language="en" type="button">English</button>
+            <button class="lang" data-language="ta" type="button">தமிழ்</button>
+            <button class="lang" data-language="hi" type="button">हिन्दी</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="sidebar">
+          <div class="sidebar-header">
+            <div>
+              <p class="section-kicker">Collection</p>
+              <h2>Artifacts</h2>
+            </div>
+            <span class="count-badge" id="artifact-count">0</span>
+          </div>
+          <div id="artifact-grid" class="artifact-grid" aria-live="polite"></div>
+        </aside>
+
+        <section class="content-panel">
+          <div id="artifact-detail" class="artifact-detail empty" aria-live="polite">
+            <div class="empty-state">
+              <h3>Select an artifact</h3>
+              <p>Choose an object from the museum collection to review its historical context, timeline, and sources.</p>
+            </div>
+          </div>
+
+          <div class="chat-panel">
+            <div class="chat-header">
+              <div>
+                <p class="section-kicker">AI guide</p>
+                <h3>Ask the museum guide</h3>
+              </div>
+              <div id="active-artifact-label" class="active-label">All artifacts</div>
+            </div>
+
+            <div id="suggestion-list" class="suggestions" aria-label="Suggested questions"></div>
+            <div id="chat-history" class="chat-history" aria-live="polite"></div>
+            <div id="chat-status" class="chat-status hidden" role="status" aria-live="polite"></div>
+
+            <form id="chat-form" class="chat-form" novalidate>
+              <input
+                id="chat-input"
+                type="text"
+                maxlength="2000"
+                placeholder="Ask about chronology, symbolism, artists, or hidden meanings..."
+                aria-label="Ask a question about the museum collection"
+              />
+              <button type="submit">Ask</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

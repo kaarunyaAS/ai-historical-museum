@@ -1,0 +1,58 @@
+{
+  "artifact_id": "ART004",
+  "name": "Konark Sun Temple Wheel",
+  "slug": "konark_wheel",
+  "description": "A giant stone wheel from the Sun Temple at Konark, representing travel, time, and the motion of the cosmos.",
+  "sources": [
+    {
+      "source_id": 7,
+      "title": "Konark Sun Temple - Archaeological documentation",
+      "url": "https://konark.nic.in",
+      "source_type": "Cultural Institution",
+      "description": "Site documentation for the Konark temple, including its wheel carvings and architecture."
+    },
+    {
+      "source_id": 18,
+      "title": "Odisha State Archaeology - Konark monuments",
+      "url": "https://odishaculture.gov.in",
+      "source_type": "Government",
+      "description": "Regional heritage description of the Konark Sun Temple and its carved stone forms."
+    },
+    {
+      "source_id": 20,
+      "title": "UNESCO World Heritage - Konark Sun Temple",
+      "url": "https://whc.unesco.org",
+      "source_type": "Heritage",
+      "description": "UNESCO entry emphasizing Konark as an exceptional temple architecture site."
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "text": "The stone wheels of the Konark Sun Temple are among the best-known sculptural features of the temple complex in Odisha. Built in the 13th century, the temple is dedicated to the Sun god and is famous for its monumental chariot-like plan. The wheels are not only decorative but also serve as symbolic markers of time, movement, and divine solar energy.",
+      "source_ids": [
+        7,
+        20
+      ]
+    },
+    {
+      "id": "iconography",
+      "title": "Iconography",
+      "text": "The wheel carvings are highly refined, often with spokes, ring-like forms, and delicate surface detailing. Their arrangement creates an impression of motion while also functioning as calendrical or astronomical references. In a temple context, they turned the architecture into a visual statement about the cycle of day, year, and cosmic order.",
+      "source_ids": [
+        7,
+        18
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Historical context",
+      "text": "Konark was built by the Ganga dynasty king Narasimha Deva I in the 13th century and is considered one of the supreme examples of Kalinga temple architecture. The temple’s richly carved surfaces and monumental scale reveal how ritual architecture in eastern India fused artistic expression with theological meaning. Today, the surviving structures are studied as an extraordinary legacy of medieval Indian craftsmanship.",
+      "source_ids": [
+        18,
+        20
+      ]
+    }
+  ]
+}

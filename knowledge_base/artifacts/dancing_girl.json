@@ -1,0 +1,67 @@
+{
+  "artifact_id": "ART002",
+  "name": "Dancing Girl of Mohenjo-daro",
+  "slug": "dancing_girl",
+  "description": "A small bronze figurine from the Indus Valley civilization, famous for its confident stance and expressive form.",
+  "sources": [
+    {
+      "source_id": 5,
+      "title": "National Museum, New Delhi - Dancing Girl",
+      "url": "https://www.nationalmuseumindia.gov.in",
+      "source_type": "Museum",
+      "description": "Museum narrative explaining the Dancing Girl as an Indus Valley bronze figurine."
+    },
+    {
+      "source_id": 1,
+      "title": "Harappa Archaeological Research Project",
+      "url": "https://www.harappa.com",
+      "source_type": "Research",
+      "description": "Research and publication context for the Mohenjo-daro figurine and Harappan culture."
+    },
+    {
+      "source_id": 13,
+      "title": "UNESCO World Heritage - Mohenjo-daro",
+      "url": "https://whc.unesco.org",
+      "source_type": "Heritage",
+      "description": "Informational context on Mohenjo-daro, urban planning, and the archaeological site."
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "text": "The Dancing Girl of Mohenjo-daro is a small bronze figure made in the mature phase of the Indus Valley civilization, likely sometime in the third millennium BCE. It was discovered in the 1920s during excavations at Mohenjo-daro in present-day Sindh, Pakistan. The figure is recognized for its naturalistic modeling and its poised, self-assured posture, which has made it an icon of South Asian early urban culture.",
+      "source_ids": [
+        5,
+        13
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Material and craft",
+      "text": "The figurine was cast using the lost-wax process, a sophisticated technique that indicates high levels of metallurgical knowledge among Harappan artisans. The sculpted details, including the pose, jewelry, and body proportions, suggest careful observation of human form. The work’s survival also demonstrates the durability and symbolic value of bronze in early urban societies.",
+      "source_ids": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "culture",
+      "title": "Harappan context",
+      "text": "The figure is associated with the broader cultural world of Mohenjo-daro, one of the largest and most organized cities of the Indus Valley civilization. It provides evidence that artistic practice was not limited to elite ceremonial contexts but could reflect everyday life, bodily expression, and urban identity. Its significance lies in how it captures the complexity of a civilization that developed advanced civic planning, trade, and craft traditions.",
+      "source_ids": [
+        1,
+        13
+      ]
+    },
+    {
+      "id": "legacy",
+      "title": "Legacy",
+      "text": "The Dancing Girl has become one of the best-known artifacts from South Asia because it combines technical mastery with human immediacy. It stands as a compelling reminder that the Indus civilization was not only urban and administrative but also rich in artistic expression. Modern scholarship often uses it to discuss the visual culture and social life of early cities in South Asia.",
+      "source_ids": [
+        5,
+        13
+      ]
+    }
+  ]
+}

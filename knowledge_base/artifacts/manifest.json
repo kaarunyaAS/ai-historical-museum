@@ -1,0 +1,64 @@
+{
+  "artifacts": [
+    {
+      "slug": "nataraja",
+      "artifact_id": "ART001",
+      "name": "Chola Bronze Nataraja",
+      "file": "nataraja.json"
+    },
+    {
+      "slug": "dancing_girl",
+      "artifact_id": "ART002",
+      "name": "Dancing Girl of Mohenjo-daro",
+      "file": "dancing_girl.json"
+    },
+    {
+      "slug": "lion_capital",
+      "artifact_id": "ART003",
+      "name": "Lion Capital of Ashoka",
+      "file": "lion_capital.json"
+    },
+    {
+      "slug": "konark_wheel",
+      "artifact_id": "ART004",
+      "name": "Konark Sun Temple Wheel",
+      "file": "konark_wheel.json"
+    },
+    {
+      "slug": "gandharan_buddha",
+      "artifact_id": "ART005",
+      "name": "Gandharan Buddha Statue",
+      "file": "gandharan_buddha.json"
+    },
+    {
+      "slug": "sanchi_torana",
+      "artifact_id": "ART006",
+      "name": "Sanchi Stupa Torana Gateway",
+      "file": "sanchi_torana.json"
+    },
+    {
+      "slug": "mughal_miniature",
+      "artifact_id": "ART007",
+      "name": "Mughal Miniature Painting",
+      "file": "mughal_miniature.json"
+    },
+    {
+      "slug": "tipu_sword",
+      "artifact_id": "ART008",
+      "name": "Tipu Sultan's Sword",
+      "file": "tipu_sword.json"
+    },
+    {
+      "slug": "harappan_figurine",
+      "artifact_id": "ART009",
+      "name": "Harappan Terracotta Figurine",
+      "file": "harappan_figurine.json"
+    },
+    {
+      "slug": "elephanta_trimurti",
+      "artifact_id": "ART010",
+      "name": "Elephanta Trimurti Sculpture",
+      "file": "elephanta_trimurti.json"
+    }
+  ]
+}

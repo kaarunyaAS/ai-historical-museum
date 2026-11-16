@@ -1,0 +1,58 @@
+{
+  "artifact_id": "ART010",
+  "name": "Elephanta Trimurti Sculpture",
+  "slug": "elephanta_trimurti",
+  "description": "A monumental rock-cut representation of Shiva in his threefold aspect at the Elephanta Caves, near Mumbai.",
+  "sources": [
+    {
+      "source_id": 3,
+      "title": "Elephanta Caves - Maharashtra state heritage records",
+      "url": "https://www.maharashtra.gov.in",
+      "source_type": "Heritage",
+      "description": "Official account of the Elephanta Caves and the Trimurti sculpture."
+    },
+    {
+      "source_id": 28,
+      "title": "ASI - Elephanta Caves rock-cut art",
+      "url": "https://asi.nic.in",
+      "source_type": "Institution",
+      "description": "Archaeological records and heritage interpretation for the Elephanta Caves."
+    },
+    {
+      "source_id": 29,
+      "title": "UNESCO World Heritage - Elephanta Caves",
+      "url": "https://whc.unesco.org",
+      "source_type": "Heritage",
+      "description": "UNESCO description of the Elephanta Caves and their artistic significance."
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "text": "The Elephanta Trimurti is a massive rock-cut sculpture created in the early medieval period, likely during the 5th to 6th centuries CE, in the Elephanta Caves on an island near Mumbai. The sculpture depicts Shiva in a three-faced form, traditionally associated with his cosmic and creative aspects. It is one of the most celebrated examples of Indian rock-cut art and a major expression of Shaiva devotion.",
+      "source_ids": [
+        3,
+        28
+      ]
+    },
+    {
+      "id": "iconography",
+      "title": "Iconography",
+      "text": "The central figure presents Shiva’s three faces as creator, preserver, and destroyer, a theological triad expressed through an immense sculptural volume. Surrounding symbolism, posture, and the carving’s monumental scale transform the cave wall into a sacred visual field. The sculpture’s presence in a cave setting deepens its relationship between natural rock and divine form.",
+      "source_ids": [
+        3,
+        29
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Historical significance",
+      "text": "The Elephanta Caves were patronized by rulers during the rise of regional dynasties and represent the flowering of artistic traditions in the Deccan. The Trimurti stands at the intersection of royal patronage, pilgrimage, and the monumental language of carved stone. It remains a powerful example of how early medieval Indian sculpture transformed religious ideas into enduring architecture.",
+      "source_ids": [
+        28,
+        29
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.local
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.local
+
+# Python virtual environments
+.venv/
+.venv311/
+venv/
+**/.venv/
+**/.venv311/
+**/venv/
+backend/.venv/
+backend/.venv311/
+
+# Python cache and test files
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+.mypy_cache/
+**/.mypy_cache/
+.ruff_cache/
+**/.ruff_cache/
+
+# Local toolchains
+.tools/
+**/.tools/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# Generated local reports
+evaluation/live_results.json
+
+# Excluded local artifacts
+museumai_complete.zip
+test_output.txt

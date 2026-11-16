@@ -1,0 +1,1 @@
+"""MuseumAI backend application."""

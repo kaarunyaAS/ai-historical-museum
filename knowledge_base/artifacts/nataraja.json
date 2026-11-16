@@ -1,0 +1,68 @@
+{
+  "artifact_id": "ART001",
+  "name": "Chola Bronze Nataraja",
+  "slug": "nataraja",
+  "description": "A Chola bronze sculpture of Shiva as Nataraja, the Lord of Dance, representing cosmic movement and divine balance.",
+  "sources": [
+    {
+      "source_id": 4,
+      "title": "Metropolitan Museum of Art - Shiva as Lord of Dance",
+      "url": "https://www.metmuseum.org",
+      "source_type": "Museum",
+      "description": "Museum documentation on Chola bronze Nataraja imagery and symbolism."
+    },
+    {
+      "source_id": 15,
+      "title": "National Museum, New Delhi - Chola bronze traditions",
+      "url": "https://www.nationalmuseumindia.gov.in",
+      "source_type": "Museum",
+      "description": "Collection context for Chola bronze sculptures and South Indian temple traditions."
+    },
+    {
+      "source_id": 19,
+      "title": "Archaeological Survey of India - Chola bronzes",
+      "url": "https://asi.nic.in",
+      "source_type": "Institution",
+      "description": "Historical and conservation context for Chola bronze sculptures in Tamil Nadu."
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "text": "The Chola Bronze Nataraja is one of the most celebrated images of Shiva in Indian art. It shows Shiva performing the cosmic dance that signals creation, preservation, and destruction, while also representing an ordered universe in motion. The form is associated with the Chola dynasty of South India, especially the Tamil region, where exceptional bronze casting traditions developed.",
+      "source_ids": [
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "iconography",
+      "title": "Iconography",
+      "text": "The figure usually displays Shiva as a dancing figure with multiple arms, a ring of flames, and a raised left leg or balanced posture. The crown, ornaments, and flowing hair make the body read as both divine and active. In Chola bronze traditions, the movement of the limbs and the precise balance of the composition were carefully designed to express divine energy and rhythm.",
+      "source_ids": [
+        4,
+        15
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Historical context",
+      "text": "The Chola period, especially from the 9th to the 13th centuries, produced some of the finest bronze sculptures in Indian art. Many of these works were made for temples and ritual settings, where they were installed in worship and treated as living images. The Nataraja type became a powerful symbol of the relationship between sacred performance, cosmic order, and the devotional imagination.",
+      "source_ids": [
+        15,
+        19
+      ]
+    },
+    {
+      "id": "significance",
+      "title": "Historical significance",
+      "text": "This form of Shiva became internationally recognized as an emblem of Indian artistic achievement because of its refined bronze casting, elegant gestures, and symbolic meaning. It is not only a devotional image but also a visual explanation of cosmic cycles, time, and the regenerative movement of the universe. The surviving sculptures continue to be studied as masterpieces of early medieval Indian art.",
+      "source_ids": [
+        4,
+        19
+      ]
+    }
+  ]
+}

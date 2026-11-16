@@ -1,0 +1,58 @@
+{
+  "artifact_id": "ART005",
+  "name": "Gandharan Buddha Statue",
+  "slug": "gandharan_buddha",
+  "description": "A Gandharan stone Buddha image representing a distinctive tradition of Buddhist art in the northwestern Indian subcontinent.",
+  "sources": [
+    {
+      "source_id": 8,
+      "title": "National Museum, New Delhi - Gandhara Buddha",
+      "url": "https://www.nationalmuseumindia.gov.in",
+      "source_type": "Museum",
+      "description": "Documentation on Gandhara sculpture and the Buddhist artistic tradition."
+    },
+    {
+      "source_id": 14,
+      "title": "Smithsonian - Gandharan Art",
+      "url": "https://www.smithsonianmag.com",
+      "source_type": "Museum",
+      "description": "Scholarly overview of Greco-Buddhist art in Gandhara and its iconographic development."
+    },
+    {
+      "source_id": 22,
+      "title": "The British Museum - Gandharan sculpture",
+      "url": "https://www.britishmuseum.org",
+      "source_type": "Museum",
+      "description": "Comparative museum material on Gandharan Buddhist sculpture and its regional context."
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "text": "The Gandharan Buddha statue belongs to the art of the Gandhara region, a cultural zone in present-day Pakistan and Afghanistan that developed under the influence of Hellenistic, Persian, and South Asian artistic traditions. Sculptures from this region often show the Buddha in a more idealized, richly draped style than earlier Indian forms, with volume and drapery that reflect broader Mediterranean and Central Asian visual currents.",
+      "source_ids": [
+        8,
+        14
+      ]
+    },
+    {
+      "id": "style",
+      "title": "Style and form",
+      "text": "The seated or standing Buddha from Gandhara often has a prominent ushnisha, a smoothly modeled face, and drapery that folds in a sculptural, classical manner. This style emerged in the centuries after the Kushan period and became a major expression of Buddhist devotion in the northwestern subcontinent. The result is a highly legible iconographic form that combines local Buddhist narrative traditions with broader artistic influences.",
+      "source_ids": [
+        8,
+        22
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "text": "The development of Gandharan Buddhism was shaped by trade routes, royal patronage, and the movement of Buddhist communities through Central and South Asia. Sculptures were made for monasteries, stupa sites, and devotional spaces, and they served as visual bridges connecting Buddhist doctrine with local artistic sensibilities. Their survival makes them essential records of interaction among different regions and cultures.",
+      "source_ids": [
+        14,
+        22
+      ]
+    }
+  ]
+}

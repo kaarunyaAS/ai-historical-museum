@@ -1,0 +1,58 @@
+{
+  "artifact_id": "ART009",
+  "name": "Harappan Terracotta Figurine",
+  "slug": "harappan_figurine",
+  "description": "A terracotta figurine from the Harappan culture, reflecting the everyday, ritual, and artistic life of an early urban civilization.",
+  "sources": [
+    {
+      "source_id": 2,
+      "title": "Harappa Archaeological Research Project - figurines",
+      "url": "https://www.harappa.com",
+      "source_type": "Research",
+      "description": "Research context on Harappan terracotta figurines and material culture."
+    },
+    {
+      "source_id": 5,
+      "title": "National Museum, New Delhi - Harappan material culture",
+      "url": "https://www.nationalmuseumindia.gov.in",
+      "source_type": "Museum",
+      "description": "Museum summary of Indus Valley figurines and their cultural significance."
+    },
+    {
+      "source_id": 13,
+      "title": "UNESCO World Heritage - Mohenjo-daro",
+      "url": "https://whc.unesco.org",
+      "source_type": "Heritage",
+      "description": "Contextual overview of Harappan urban life and archaeological objects."
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "text": "Harappan terracotta figurines were produced across the extensive Indus Valley tradition, primarily in the 3rd millennium BCE. These small objects reveal a broad spectrum of human, animal, and symbolic forms that were shaped in clay and often fired with considerable technical care. Their small scale does not diminish their importance: they provide one of the clearest windows into everyday material culture in the Harappan world.",
+      "source_ids": [
+        2,
+        13
+      ]
+    },
+    {
+      "id": "craft",
+      "title": "Craft and form",
+      "text": "These figurines display strong sculptural economy, with simplified but expressive bodies, careful detailing, and a wide range of postures. The terracotta medium was accessible and durable, making it ideal for both ritual and domestic contexts. Their recurring forms suggest not only artistic conventions but also deeply embedded ideas about fertility, identity, and social life.",
+      "source_ids": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Historical significance",
+      "text": "Because Harappan script remains undeciphered, material culture is central to understanding this civilization. Figurines and associated objects help reconstruct urban life, ritual practices, and symbolic systems without relying on written evidence alone. This makes them essential to the study of one of the earliest urban societies in South Asia.",
+      "source_ids": [
+        5,
+        13
+      ]
+    }
+  ]
+}
