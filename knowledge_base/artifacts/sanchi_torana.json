@@ -1,0 +1,58 @@
+{
+  "artifact_id": "ART006",
+  "name": "Sanchi Stupa Torana Gateway",
+  "slug": "sanchi_torana",
+  "description": "A carved gateway from the Great Stupa at Sanchi, known for narrative reliefs and Buddhist symbolic imagery.",
+  "sources": [
+    {
+      "source_id": 9,
+      "title": "Sanchi Museum / Archaeological documentation",
+      "url": "https://sanchi.nic.in",
+      "source_type": "Institution",
+      "description": "Documentation of the Sanchi stupa complex and its torana gateways."
+    },
+    {
+      "source_id": 16,
+      "title": "ASI - Sanchi Stupa conservation records",
+      "url": "https://asi.nic.in",
+      "source_type": "Institution",
+      "description": "Archaeological records for the Great Stupa and its gateways."
+    },
+    {
+      "source_id": 17,
+      "title": "UNESCO World Heritage - Sanchi",
+      "url": "https://whc.unesco.org",
+      "source_type": "Heritage",
+      "description": "UNESCO narrative on Sanchi as a major Buddhist site and heritage complex."
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "text": "The torana gateways of Sanchi are among the greatest achievements of early Indian stone carving, associated with the Great Stupa at Sanchi in Madhya Pradesh. They were built in the early centuries of the Common Era and are famous for their elaborate reliefs, making the gateway a sculptural frame for Buddhist devotion and processional movement. The gateways marked the transition from the stupa’s sacred interior to the larger ceremonial setting around it.",
+      "source_ids": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "narrative",
+      "title": "Narrative sculpture",
+      "text": "The relief carvings on the toranas depict scenes from the life of the Buddha, Jataka tales, and symbolic motifs associated with Buddhist devotion. The compositions combine narrative clarity with elegant balance, often with human and natural forms set within archways and medallions. Such imagery helped convey Buddhist teachings in a format that was both visual and public.",
+      "source_ids": [
+        9,
+        17
+      ]
+    },
+    {
+      "id": "legacy",
+      "title": "Legacy",
+      "text": "Sanchi remains one of the most important surviving Buddhist sites in India and a key place for studying the evolution of early Buddhist art. The toranas bear witness to patronage, ritual performance, and urban and monastic networks in early historic South Asia. Their preserved forms continue to shape understanding of artistic development in the Indian subcontinent.",
+      "source_ids": [
+        16,
+        17
+      ]
+    }
+  ]
+}

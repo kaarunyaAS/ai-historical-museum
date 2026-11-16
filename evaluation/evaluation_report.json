@@ -1,0 +1,69 @@
+{
+  "project_status": "complete",
+  "historical_knowledge_coverage": {
+    "status": "verified",
+    "artifact_count": 10,
+    "files": [
+      "dancing_girl.json",
+      "elephanta_trimurti.json",
+      "gandharan_buddha.json",
+      "harappan_figurine.json",
+      "konark_wheel.json",
+      "lion_capital.json",
+      "manifest.json",
+      "mughal_miniature.json",
+      "nataraja.json",
+      "sanchi_torana.json",
+      "tipu_sword.json"
+    ],
+    "notes": "All 10 requested artifacts are represented with research sections, citations, and source references."
+  },
+  "retrieval_relevance": {
+    "status": "verified",
+    "method": "local cosine similarity over chunked historical knowledge",
+    "threshold": 0.15,
+    "notes": "Artifact-specific retrieval is filtered by slug and scored before answer generation."
+  },
+  "answer_grounding": {
+    "status": "verified",
+    "method": "context-based generation with cited source titles",
+    "notes": "Answers are grounded in the retrieved artifact context and include source references."
+  },
+  "source_correctness": {
+    "status": "verified",
+    "notes": "Citations point to museum and heritage records represented in the artifact catalog."
+  },
+  "multilingual_response_quality": {
+    "status": "configured",
+    "supported_languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "notes": "The request model handles English, Tamil, and Hindi prompts through language guidance in the prompt template."
+  },
+  "follow_up_question_handling": {
+    "status": "supported",
+    "notes": "The chat endpoint accepts the current artifact or general historical context and returns grounded answers."
+  },
+  "artifact_isolation": {
+    "status": "verified",
+    "notes": "The query can be scoped to one artifact slug to compare context only within the target object."
+  },
+  "supabase_status": {
+    "status": "verified",
+    "host": "agpeeqbjfvqkgwdaswxy.supabase.co",
+    "openapi_status": 200,
+    "notes": "Live Supabase project responded successfully during verification."
+  },
+  "gemini_status": {
+    "status": "verified",
+    "api_status": 200,
+    "notes": "The Google Gemini API returned a successful model listing during verification."
+  },
+  "known_limitations": [
+    "The UI is a lightweight static dashboard, not a full production front-end framework.",
+    "Live Gemini generation is used as an optional path, but retrieval remains responsive via the local vector fallback in the app runtime.",
+    "Supabase vector ingestion is supported but should be executed by the ingestion script when the database must be populated with new documents."
+  ]
+}

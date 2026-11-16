@@ -1,0 +1,58 @@
+{
+  "artifact_id": "ART007",
+  "name": "Mughal Miniature Painting",
+  "slug": "mughal_miniature",
+  "description": "A Mughal miniature painting showing courtly life, imperial patronage, and refined manuscript illustration.",
+  "sources": [
+    {
+      "source_id": 12,
+      "title": "The Metropolitan Museum of Art - Mughal miniature traditions",
+      "url": "https://www.metmuseum.org",
+      "source_type": "Museum",
+      "description": "Museum overview of Mughal manuscript painting and court art."
+    },
+    {
+      "source_id": 10,
+      "title": "National Museum, New Delhi - Mughal painting collections",
+      "url": "https://www.nationalmuseumindia.gov.in",
+      "source_type": "Museum",
+      "description": "Collection context for Mughal painting traditions and imperial manuscripts."
+    },
+    {
+      "source_id": 27,
+      "title": "Smithsonian - Court painting in Mughal India",
+      "url": "https://www.smithsonianmag.com",
+      "source_type": "Research",
+      "description": "Interpretive material on imperial art and pictorial culture in Mughal India."
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "text": "Mughal miniature painting emerged in the 16th and 17th centuries as a highly refined court art form associated with the Mughal emperors and their ateliers. These paintings were often created for manuscripts, albums, or ceremonial commissions and drew on Persian, Indian, and European influences. Their visual sophistication helped define a courtly idiom that blended learning, hierarchy, and artistic innovation.",
+      "source_ids": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Production and style",
+      "text": "Miniature painters worked in organized workshops, where calligraphy, illustration, and courtly themes were combined under strong imperial supervision. The works often feature precise linework, jewel-like color, and carefully controlled compositions designed to communicate rank, narrative, and the idealized world of the Mughal court. Their visual language balanced realism with stylization.",
+      "source_ids": [
+        10,
+        27
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Historical significance",
+      "text": "The Mughal court valued painting as a record of imperial authority, ceremonial life, and literary culture. Paintings were used to document events, preserve memory, and create a visual identity for the emperor and his household. Their widespread circulation preserved a vivid record of Mughal taste and political culture.",
+      "source_ids": [
+        12,
+        27
+      ]
+    }
+  ]
+}

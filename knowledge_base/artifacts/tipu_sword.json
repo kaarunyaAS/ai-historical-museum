@@ -1,0 +1,58 @@
+{
+  "artifact_id": "ART008",
+  "name": "Tipu Sultan's Sword",
+  "slug": "tipu_sword",
+  "description": "A ceremonial sword associated with Tipu Sultan of Mysore, reflecting the military and political context of late 18th-century South India.",
+  "sources": [
+    {
+      "source_id": 11,
+      "title": "British Museum - Sword associated with Tipu Sultan",
+      "url": "https://www.britishmuseum.org",
+      "source_type": "Museum",
+      "description": "British Museum documentation on the sword seized after the fall of Seringapatam."
+    },
+    {
+      "source_id": 24,
+      "title": "National Museum, New Delhi - Sword of Tipu Sultan",
+      "url": "https://www.nationalmuseumindia.gov.in",
+      "source_type": "Museum",
+      "description": "Detailed record of the Mysore-period sword and its inscriptions."
+    },
+    {
+      "source_id": 26,
+      "title": "Royal Collection Trust - Tipu Sultan of Mysore",
+      "url": "https://www.rct.uk",
+      "source_type": "Collection",
+      "description": "Contextual account of Tipu Sultan’s court, military conflict, and the seizure of objects after 1799."
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "text": "The sword associated with Tipu Sultan is a powerful object from the late 18th century, linked to the kingdom of Mysore and the military campaigns fought against the British East India Company. It was associated with the palace at Seringapatam, the capital of Mysore, and came to British attention after the fall of the city in 1799. Its survival in museum collections makes it a vivid material witness to a decisive moment in South Asian political history.",
+      "source_ids": [
+        11,
+        24
+      ]
+    },
+    {
+      "id": "materials",
+      "title": "Craft and design",
+      "text": "The sword is notable for its decorated blade, jeweled or damascened surface, and courtly craftsmanship. Such weapons were not just functional weapons; they also embodied royal status, technical skill, and the artistic culture of Mysore. Inscriptions, floral motifs, and the presence of a ceremonial form all suggest that the object had both martial and symbolic value.",
+      "source_ids": [
+        24,
+        26
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Military and political context",
+      "text": "Tipu Sultan ruled Mysore from 1782 to 1799 and contested British expansion through a series of conflicts known as the Anglo-Mysore Wars. His court was known for military organization, alliances, and a strong culture of arts and material production. The sword and related objects became part of a broader story of imperial conflict and subsequent military trophies and museum collections.",
+      "source_ids": [
+        11,
+        26
+      ]
+    }
+  ]
+}

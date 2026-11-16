@@ -1,0 +1,471 @@
+{
+  "supabase_host": "agpeeqbjfvqkgwdaswxy.supabase.co",
+  "tables": {
+    "artifact_personalities": {
+      "columns": {
+        "artifact_id": {
+          "type": "string",
+          "format": "text",
+          "description": "Note:\nThis is a Primary Key.<pk/>\nThis is a Foreign Key to `artifacts.id`.<fk table='artifacts' column='id'/>"
+        },
+        "personality_id": {
+          "type": "string",
+          "format": "text",
+          "description": "Note:\nThis is a Primary Key.<pk/>\nThis is a Foreign Key to `personalities.id`.<fk table='personalities' column='id'/>"
+        },
+        "relationship": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        }
+      }
+    },
+    "knowledge_chunks": {
+      "columns": {
+        "id": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Note:\nThis is a Primary Key.<pk/>"
+        },
+        "document_id": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Note:\nThis is a Foreign Key to `knowledge_documents.id`.<fk table='knowledge_documents' column='id'/>"
+        },
+        "chunk_index": {
+          "type": "integer",
+          "format": "int32",
+          "description": null
+        },
+        "chunk_text": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "embedding": {
+          "type": "string",
+          "format": "public.vector(768)",
+          "description": null
+        }
+      },
+      "probe_status": 200,
+      "content_range": "*/0",
+      "sample_keys": [],
+      "sample_count_returned": 0
+    },
+    "museum_pdf_chunks": {
+      "columns": {
+        "id": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Note:\nThis is a Primary Key.<pk/>"
+        },
+        "artifact_id": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "source_file": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "page_number": {
+          "type": "integer",
+          "format": "int32",
+          "description": null
+        },
+        "chunk_index": {
+          "type": "integer",
+          "format": "int32",
+          "description": null
+        },
+        "content": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "embedding": {
+          "type": "string",
+          "format": "public.vector(768)",
+          "description": null
+        },
+        "created_at": {
+          "type": "string",
+          "format": "timestamp with time zone",
+          "description": null
+        }
+      }
+    },
+    "artifacts": {
+      "columns": {
+        "id": {
+          "type": "string",
+          "format": "text",
+          "description": "Note:\nThis is a Primary Key.<pk/>"
+        },
+        "name": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "description": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "artifact_type": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "historical_significance": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "created_at": {
+          "type": "string",
+          "format": "timestamp with time zone",
+          "description": null
+        }
+      }
+    },
+    "sources": {
+      "columns": {
+        "id": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Note:\nThis is a Primary Key.<pk/>"
+        },
+        "title": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "url": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "source_type": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "description": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "created_at": {
+          "type": "string",
+          "format": "timestamp with time zone",
+          "description": null
+        }
+      }
+    },
+    "artifact_events": {
+      "columns": {
+        "artifact_id": {
+          "type": "string",
+          "format": "text",
+          "description": "Note:\nThis is a Primary Key.<pk/>\nThis is a Foreign Key to `artifacts.id`.<fk table='artifacts' column='id'/>"
+        },
+        "event_id": {
+          "type": "string",
+          "format": "text",
+          "description": "Note:\nThis is a Primary Key.<pk/>\nThis is a Foreign Key to `events.id`.<fk table='events' column='id'/>"
+        },
+        "relationship": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        }
+      }
+    },
+    "knowledge_documents": {
+      "columns": {
+        "id": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Note:\nThis is a Primary Key.<pk/>"
+        },
+        "artifact_id": {
+          "type": "string",
+          "format": "text",
+          "description": "Note:\nThis is a Foreign Key to `artifacts.id`.<fk table='artifacts' column='id'/>"
+        },
+        "title": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "content": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "source_id": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Note:\nThis is a Foreign Key to `sources.id`.<fk table='sources' column='id'/>"
+        },
+        "document_type": {
+          "type": "string",
+          "format": "text",
+          "description": null
+        },
+        "created_at": {
+          "type": "string",
+          "format": "timestamp with time zone",
+          "description": null
+        }
+      },
+      "probe_status": 206,
+      "content_range": "0-0/4",
+      "error": "[{\"id\":1,\"artifact_id\":\"ART008\",\"title\":\"British Museum \u2013 Sword associated with Tipu Sultan\",\"content\":\"The British Museum records this sword as a sword from Srirangapatna, India, associated with Tipu Sultan. Tipu Sultan ruled the powerful kingdom of Mysore from 1782 to 1799 and fought four wars against the East India Company while resisting British expansion. The sword came from Tipu Sultan\u2019s palace and was seized as a trophy in 1799 after Tipu Sultan died defending his palace against British f"
+    },
+    "museumai_artifacts": {
+      "probe_status": 404,
+      "content_range": null,
+      "error": "{\"code\":\"PGRST205\",\"details\":null,\"hint\":null,\"message\":\"Could not find the table 'public.museumai_artifacts' in the schema cache\"}"
+    },
+    "museumai_chunks": {
+      "probe_status": 404,
+      "content_range": null,
+      "error": "{\"code\":\"PGRST205\",\"details\":null,\"hint\":\"Perhaps you meant the table 'public.museum_pdf_chunks'\",\"message\":\"Could not find the table 'public.museumai_chunks' in the schema cache\"}"
+    }
+  },
+  "gemini_models": [
+    {
+      "name": "models/gemini-3-flash-preview",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-pro-preview",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-pro-preview-customtools",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-lite-preview",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-lite",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3-pro-image-preview",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3-pro-image",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-image-preview",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-image",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-lite-image",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.5-flash",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.5-flash-lite",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.5-transcribe",
+      "methods": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/gemini-3.6-flash",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.7-flash",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.8-flash",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-tts-preview",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.8-flash-tts",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.8-flash-lite-tts",
+      "methods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-embedding-001",
+      "methods": [
+        "embedContent",
+        "countTextTokens",
+        "countTokens",
+        "asyncBatchEmbedContent"
+      ]
+    },
+    {
+      "name": "models/gemini-embedding-2-preview",
+      "methods": [
+        "embedContent",
+        "countTextTokens",
+        "countTokens",
+        "asyncBatchEmbedContent"
+      ]
+    },
+    {
+      "name": "models/gemini-embedding-2",
+      "methods": [
+        "embedContent",
+        "countTextTokens",
+        "countTokens",
+        "asyncBatchEmbedContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.5-transcribe-live",
+      "methods": [
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-live-preview",
+      "methods": [
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.8-live",
+      "methods": [
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.8-live-extended-thinking",
+      "methods": [
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.5-live-translate-preview",
+      "methods": [
+        "bidiGenerateContent"
+      ]
+    }
+  ],
+  "openapi_status": 200,
+  "interesting_paths": [
+    "/artifact_personalities",
+    "/knowledge_chunks",
+    "/museum_pdf_chunks",
+    "/artifacts",
+    "/sources",
+    "/artifact_events",
+    "/knowledge_documents"
+  ],
+  "gemini_status": 200
+}

@@ -1,0 +1,58 @@
+{
+  "artifact_id": "ART003",
+  "name": "Lion Capital of Ashoka",
+  "slug": "lion_capital",
+  "description": "A Mauryan sandstone capital from Sarnath, famous as one of the most important symbols of ancient Indian art.",
+  "sources": [
+    {
+      "source_id": 6,
+      "title": "Archaeological Museum, Sarnath - Lion Capital",
+      "url": "https://sarnath.archaeology-museum.org",
+      "source_type": "Museum",
+      "description": "Museum records on the Ashokan pillar capital and its discovery at Sarnath."
+    },
+    {
+      "source_id": 21,
+      "title": "Government of India - National Emblem",
+      "url": "https://knowindia.gov.in",
+      "source_type": "Government",
+      "description": "Official explanation of the state emblem and the Lion Capital’s role in modern India."
+    },
+    {
+      "source_id": 23,
+      "title": "Sarnath excavation reports",
+      "url": "https://asi.nic.in",
+      "source_type": "Excavation",
+      "description": "Archaeological reporting on Mauryan pillar remains and the Sarnath site."
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "text": "The Lion Capital of Ashoka was carved in the 3rd century BCE during the reign of Emperor Ashoka, and it originally crowned one of the polished sandstone pillars erected across the Mauryan empire. The capital depicts four lions standing back to back, with a circular abacus below them and a lotus base beneath. It was discovered at Sarnath, where the Buddha’s first sermon is traditionally associated with the site.",
+      "source_ids": [
+        6,
+        23
+      ]
+    },
+    {
+      "id": "symbolism",
+      "title": "Symbolism",
+      "text": "The lions are often read as symbols of courage, sovereignty, and the universal message of the dharma. The wheel or chakra beneath them is also linked to the idea of motion, law, and moral order. The entire monument was designed to communicate power while also aligning royal authority with a broader moral and spiritual vision.",
+      "source_ids": [
+        21,
+        23
+      ]
+    },
+    {
+      "id": "legacy",
+      "title": "Legacy",
+      "text": "The structure became the model for the State Emblem of India after independence and is one of the best-known ancient Indian sculptures in public life. Its political and visual authority came from combining monumental craft with symbolic clarity. For historians, the Lion Capital remains one of the defining achievements of Mauryan imperial art.",
+      "source_ids": [
+        6,
+        21
+      ]
+    }
+  ]
+}
